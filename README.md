@@ -8,6 +8,7 @@ File required to be download for the program to run normally --
     pip install cryptography
     pip install pyperclip
     pip install customTkinter
+    pip install pyinstaller
 
 To run ---
     Open the program named "Double Trouble.py" and run the programs
@@ -67,4 +68,5 @@ Reference
 
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
+
 
