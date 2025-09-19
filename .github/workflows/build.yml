@@ -1,0 +1,42 @@
+name: Build Protecto App
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # lets you run manually
+
+jobs:
+  build:
+    runs-on: windows-latest  # since you want .exe
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+
+    - name: Build with PyInstaller
+      run: |
+        pyinstaller --onefile --windowed "Protecto.py"
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Protecto-exe
+        path: dist/Protecto.exe
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: dist/Protecto.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
