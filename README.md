@@ -50,7 +50,7 @@ Content --
         #changing to your custom icon
             In the file Protecto.py search for the file name (shortcut => crl + f or crl + h) bg_image and change the destination 
             of the file to your choice 
-This code wouldn't be able to come to reality without of various different people and sites should Ive taken much inspiration from and used their codes as reference to bring this program to what it is now.
+This code wouldn't be able to come to reality without the help of various different people and sites from which Ive taken much inspiration from . I used their codes as reference to bring this program to what it is now.
 
 Reference
 
@@ -64,5 +64,6 @@ Reference
 #https://stackoverflow.com/
 
 #https://customtkinter.tomschimansky.com
+
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
