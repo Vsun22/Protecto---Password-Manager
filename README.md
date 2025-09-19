@@ -3,11 +3,11 @@ A Password Vault for storage of passwords and to generator strong and safe passw
 
 
 File required to be download for the program to run normally --
-    - pip install Pillow
+    #- pip install Pillow
     - pip install cryptography
     - pip install customTkinter
    
-    #<Download through cmd>
+    (Download through cmd)
 
 To run ---
     Open the program named "Double Trouble.py" and run the programs
@@ -67,3 +67,4 @@ Reference
 
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
+
