@@ -33,11 +33,11 @@ Content --
                storage vault for all your important passwords
     
     =>Protecto Password Generator
-        This program is used for generating the password by just inputing the total number of characters you would want for your password
+        This program is used for generating the password by just inputting the total number of characters you would want for your password
     
     =>Protecto.db
-        This is the database file where all the table are formed.
-        The database program I have used is sqlite
+        This is the database file where all the table are stored.
+        The database program I have used is sqlite3
 
         (#incase the creat master password screen doesnt occur that means the database isnt empty
         Either clear the database or delete it and create another database with the name "Protecto.db" )
@@ -67,3 +67,4 @@ Reference
 
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
+
