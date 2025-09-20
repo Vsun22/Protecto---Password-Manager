@@ -12,7 +12,7 @@ File required to be download for the program to run normally --
 
 To run ---
 
-    **Download file or clone the repository and Open it in a Compiler**
+    **Download zip-file and extract it or clone the repository and Open it in a Compiler**
 
     Open the program named "Double Trouble.py" and run the programs
     
@@ -71,6 +71,7 @@ Reference
 
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
+
 
 
 
