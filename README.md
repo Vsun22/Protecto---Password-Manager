@@ -1,7 +1,7 @@
 # Protecto---Password-Manager
 A Password Vault for storage of passwords and to generator strong and safe passwords
 
-
+    
 File required to be download for the program to run normally --
     
     
@@ -11,6 +11,9 @@ File required to be download for the program to run normally --
     pip install pyinstaller
 
 To run ---
+
+    **Download file or clone the repository and Open it in a Compiler**
+
     Open the program named "Double Trouble.py" and run the programs
     
 
@@ -68,5 +71,6 @@ Reference
 
 
 (Various other sources were used for beautifying and correcting small mistakes in the code)
+
 
 
