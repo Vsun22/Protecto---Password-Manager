@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protecto - Password Manager Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #4a90e2;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 15px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #eee;
+    }
+    footer a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Protecto - Password Manager</h1>
+    <p>Secure, simple, and open source</p>
+  </header>
+
+  <div class="container">
+    <h2>🔑 Login Screen</h2>
+    <img src="screenshots/login.png" alt="Login Screenshot">
+
+    <h2>📂 Dashboard</h2>
+    <img src="screenshots/dashboard.png" alt="Dashboard Screenshot">
+
+    <h2>➕ Add Password</h2>
+    <img src="screenshots/add_password.png" alt="Add Password Screenshot">
+
+    <h2>ℹ️ About Protecto</h2>
+    <p>
+      Protecto is a desktop password manager built with Python and CustomTkinter. 
+      It uses SQLite for storage and <code>cryptography</code> for encryption, ensuring your data stays secure.
+    </p>
+  </div>
+
+  <footer>
+    <p>View the source on <a href="https://github.com/Vsun22/Protecto---Password-Manager" target="_blank">GitHub</a></p>
+  </footer>
+</body>
+</html>
